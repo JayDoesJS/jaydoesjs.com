@@ -1,0 +1,6 @@
+# Vim
+*.swp
+*.swo
+
+# MacOS Filesystem garbage
+.DS_Store
