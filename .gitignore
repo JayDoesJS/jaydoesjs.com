@@ -4,3 +4,6 @@
 
 # MacOS Filesystem garbage
 .DS_Store
+
+wip/
+dist/
