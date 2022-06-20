@@ -35,11 +35,51 @@ a:hover {
 
 #title-header {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #socials {
   text-align: center;
+}
+
+#projects {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-row {
+  width: 100%;
+  flex: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-card {
+  flex: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title {
+  text-align: center;
+  flex: auto;
+}
+
+.project-thumb {
+  border-radius: 16px;
+  max-width: 100%;
+  flex: auto;
+  height: 300px;
+  /* border: 5px solid white; */
 }
 
 #uploads {
@@ -54,9 +94,5 @@ a:hover {
   width: 100%;
   aspect-ratio: 16 / 9;
   margin-bottom: 16px;
-  max-width: 1000px;
-}
-
-#business-email {
-  font-size: 12.8px;
+  max-width: 1200px;
 }
