@@ -5,5 +5,7 @@
 # MacOS Filesystem garbage
 .DS_Store
 
+todo.md
+
 wip/
 dist/
